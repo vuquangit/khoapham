@@ -1,18 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './component/TodoList';
 import * as serviceWorker from './serviceWorker';
-
-
-//var express = require('express'); // Get the module
-//var app = express(); //// Create express by calling the prototype in var express
-//const port=3000;
-//app.get('/', function(req, res){ res.render('homepage'); });
-//var mang= ["Android", "IOS", "PHP", "React"];
-//app.post('/getNotes', (req,res)=> res.send(mang));
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
