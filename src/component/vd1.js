@@ -39,7 +39,7 @@ class BaiTap1 extends Component {
       return (
         <div className='div-note'>
           <p>{this.props.children}</p>
-          <button onClick={this.editItem.bind(this)}>Edit</button>
+          <button onClick={this.editItem.bind(this)}>Edit Item</button>
           <button onClick={this.props.deleteItem}>Delete</button>
         </div>
       );
